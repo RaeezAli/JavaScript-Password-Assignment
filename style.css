@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordSection {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 300px auto;
+}
+
+.passWord {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+input {
+    color: black;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 5px;
+}
+
+img {
+    width: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+}
